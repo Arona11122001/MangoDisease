@@ -1,0 +1,59 @@
+name: iaproject
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.4+4
+  cupertino_icons: ^1.0.2
+  http: ^0.13.6
+  tflite_flutter: ^0.10.1
+  flutter_image_compress: ^2.0.3
+  image: ^3.0.2
+  path_provider: ^2.0.0
+  crypto: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/green1.png
+    - assets/vertfonce.png
+    - assets/green2.png
+    - assets/vert.avif
+    - assets/vert2.avif
+    - assets/plant1.jpg
+    - assets/plante2.webp
+    - assets/plante3.jpeg
+    - assets/plante4.jpeg
+    - assets/plante5.jpeg
+    - assets/vert1.jpg
+    - assets/vert3.png
+    - assets/vertt3.png
+    - assets/plante5.jpeg
+    - assets/plante7.jpg
+    - assets/plante8.webp
+    - assets/plante9.png
+    - assets/a1.jpeg
+    - assets/a2.jpeg
+    - assets/a3.jpeg
+    - assets/a4.jpeg
+    - assets/a5.jpeg
+    - assets/avif.png
+    - assets/anthracnose_model.tflite
+    - assets/mangue1.jpeg
+    - assets/mangue2.jpeg
+    - assets/mangue3.jpeg
+    - assets/mangue4.jpeg
+    - assets/mangue5.jpeg
+
+  uses-material-design: true
